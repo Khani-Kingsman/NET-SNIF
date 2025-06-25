@@ -47,7 +47,7 @@ source venv/bin/activate       # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
 
 # 4. Run the application
-python main.py
+python Code_Alpha_Network_Sniffer.py
 
  ```
 
@@ -57,10 +57,10 @@ python main.py
 
  ```
 packet-sniffer-gui/
-├── main.py                 # Entry point
-├── gui/                    # GUI-related components (Tkinter)
-├── sniffer/                # Scapy-based packet capturing logic
-├── utils/                  # Filtering, formatting, helpers
+├── Code_Alpha_Network_Sniffer.py                 # Entry point
+├── gui/                                          # GUI-related components (Tkinter)
+├── sniffer/                                      # Scapy-based packet capturing logic
+├── utils/                                        # Filtering, formatting, helpers
 ├── requirements.txt
 └── README.md
 
@@ -70,7 +70,7 @@ packet-sniffer-gui/
 ---
  ```
 Step 1: Launch the GUI
-python main.py
+python Code_Alpha_Network_Sniffer.py
 
 Step 2: Choose the network interface and sniffing mode
 
@@ -89,7 +89,7 @@ Step 4: Search packets by:
  ```
  
  On Linux/macOS, run with elevated permissions:
-sudo python main.py
+sudo python Code_Alpha_Network_Sniffer.py
 
   ```
 ## 🙌 Acknowledgments
