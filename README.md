@@ -36,7 +36,7 @@ A user-friendly and powerful **GUI-based Network Packet Sniffer** developed in P
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/packet-sniffer-gui.git
+git clone https://github.com/Khani-Kingsman/packet-sniffer-gui.git
 cd packet-sniffer-gui
 
 # 2. (Optional) Create a virtual environment
@@ -47,7 +47,7 @@ source venv/bin/activate       # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
 
 # 4. Run the application
-python Code_Alpha_Network_Sniffer.py
+python Net-Snif.py
 
  ```
 
@@ -57,7 +57,7 @@ python Code_Alpha_Network_Sniffer.py
 
  ```
 packet-sniffer-gui/
-├── Code_Alpha_Network_Sniffer.py                 # Entry point
+├── Net-Snif.py                                   # Entry point
 ├── gui/                                          # GUI-related components (Tkinter)
 ├── sniffer/                                      # Scapy-based packet capturing logic
 ├── utils/                                        # Filtering, formatting, helpers
@@ -70,7 +70,7 @@ packet-sniffer-gui/
 ---
  ```
 Step 1: Launch the GUI
-python Code_Alpha_Network_Sniffer.py
+python Net-Snif.py
 
 Step 2: Choose the network interface and sniffing mode
 
@@ -89,7 +89,7 @@ Step 4: Search packets by:
  ```
  
  On Linux/macOS, run with elevated permissions:
-sudo python Code_Alpha_Network_Sniffer.py
+sudo python Net-Snif.py
 
   ```
 ## 🙌 Acknowledgments
