@@ -671,4 +671,5 @@ if __name__ == "__main__":
               foreground=[('active', 'white'), ('!disabled', 'white')])
 
     app = PacketSnifferGUI(root)
+
     root.mainloop()
